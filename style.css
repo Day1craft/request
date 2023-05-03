@@ -1,0 +1,65 @@
+body {
+    background-color: #d3d3d3!important;
+    font-family: 'Open Sans', sans-serif!important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.background-image {
+    background-image: url('fishing-tools.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+
+.card {
+    width: 70%;
+    margin: auto;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
+
+.card-title {
+    text-align: center;
+    background-color: #d3d3d3;
+    padding: 15px;
+    font-weight: 600;
+}
+
+.card .card-body {
+    padding: 0;
+}
+
+.btn-wrapper{
+    padding: 0px 30px;
+}
+
+.card .card-body a {
+    width: 100%;
+}
+
+.card .card-body a span {
+    background-color: #a91b0d;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 3px 8px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+
+/* Heart beat animation */
+@keyframes beat{
+	to { transform: scale(1.4); }
+}
